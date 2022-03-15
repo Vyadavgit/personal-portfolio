@@ -16,6 +16,7 @@ public class WebController {
         personalInfo.setEmail("abc@gmail.com");
         personalInfo.setCvURL("https://www.google.com");
         personalInfo.setDescription("This is test description");
+        personalInfo.setGitURL("https://github.com/Vyadavgit");
 
         model.addAttribute("personalInfo", personalInfo);
         return "index";

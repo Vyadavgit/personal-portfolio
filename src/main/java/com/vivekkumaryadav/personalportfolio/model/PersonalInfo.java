@@ -11,5 +11,6 @@ public class PersonalInfo {
     private int age;
     private String description;
     private String cvURL;
+    private String gitURL;
 
 }

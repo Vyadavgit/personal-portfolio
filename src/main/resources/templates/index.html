@@ -74,7 +74,7 @@
           <li class="social-icons-facebook"><a data-bs-toggle="tooltip" title="Facebook" href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
           <li class="social-icons-twitter"><a data-bs-toggle="tooltip" title="Twitter" href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
           <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" title="Dribbble" data-bs-placement="top" href="http://www.dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-          <li class="social-icons-github"><a data-bs-toggle="tooltip" title="GitHub" data-bs-placement="top" href="http://www.google.com/" target="_blank" ><i class="fab fa-github"></i></a></li>
+          <li class="social-icons-github"><a data-bs-toggle="tooltip" title="GitHub" data-bs-placement="top" th:href="@{${personalInfo.gitURL}}" target="_blank" ><i class="fab fa-github"></i></a></li>
         </ul>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
       </div>
@@ -405,7 +405,7 @@
               <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
               <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
               <li class="social-icons-google"><a data-bs-toggle="tooltip" href="http://www.google.com/" target="_blank" title="Google"><i class="fab fa-google"></i></a></li>
-              <li class="social-icons-github"><a data-bs-toggle="tooltip" href="http://www.github.com/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+              <li class="social-icons-github"><a data-bs-toggle="tooltip" th:href="@{${personalInfo.gitURL}}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
             </ul>
           </div>
           <div class="col-md-8 col-xl-9 order-0 order-md-1">
